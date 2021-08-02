@@ -3,8 +3,8 @@
 # Brainfuck Interpreter
 # by Samarth Kulshrestha
 #
-# Usage: ./brainfuck.py [FILE]
-# or python brainfuck.py [FILE]
+# Usage: ./brainfuck.py <file>
+# or python brainfuck.py <file>
 
 import sys
 import get_char
