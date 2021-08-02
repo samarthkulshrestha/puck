@@ -1,7 +1,5 @@
 # Introducing **PUCK**
 
----
-
 A [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) interpreter, written in python.
 This interpreter uses just the python standard library.
 
@@ -33,19 +31,22 @@ python brainfuck.py <file>
 
 -   Or use it in python itself
 
-```
+```python
 import brainfuck
 
 brainfuck_code = """
-++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+++++++++
+[>++++[>++>+++>+++>+<<<<-]
+>+>+>->>+[<]<-]
+>>.>---.+++++++..+++.>>.<-.
+<.+++.------.--------.>>+.>++.
 """
 
 brainfuck.evalute(brainfuck_code)
 ```
 
----
-
 ## License
 
-This project is licensed under the **DO WHATEVER THE FUCK YOU WANNA DO PUBLIC LICENSE**.
+This project is licensed under the **_DO WHATEVER THE FUCK YOU WANNA DO PUBLIC LICENSE_**.
+
 (c) Samarth Kulshrestha 2021
