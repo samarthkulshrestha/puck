@@ -45,8 +45,8 @@ brainfuck_code = """
 brainfuck.evalute(brainfuck_code)
 ```
 
-## License
+## Licenee
 
-This project is licensed under the **_DO WHATEVER THE FUCK YOU WANNA DO PUBLIC LICENSE_**.
+This project is licenced under the **_DO WHATEVER THE FUCK YOU WANNA DO PUBLIC LICENSE_**.
 
 (c) Samarth Kulshrestha 2021
