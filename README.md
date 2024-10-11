@@ -1,35 +1,31 @@
-# Introducing **PUCK**
+# puck
 
-A [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) interpreter, written in python.
-This interpreter uses just the python standard library.
+a [brainfuck](https://en.wikipedia.org/wiki/Brainfuck) interpreter, written in python.
+this interpreter uses just the python standard library.
 
-## Usage
+### usage
 
--   Unix (Linux/MacOS)
+#### as a script-
 
-```
-# clones the repository
++ clone the repository
+
+```console
 git clone https://github.com/samarthkulshrestha/puck
-
-cd puck
-
-# runs the code
-./brainfuck.py <file>
 ```
 
--   Windows
++ change directory
+
+```console
+cd puck
+```
+
++ run the code
 
 ```
-# clones the repository
-git clone https://github.com/samarthkulshrestha/puck
-
-cd puck
-
-# runs the code
 python brainfuck.py <file>
 ```
 
--   Or use it in python itself
+#### as a python library-
 
 ```python
 import brainfuck
@@ -45,8 +41,8 @@ brainfuck_code = """
 brainfuck.evalute(brainfuck_code)
 ```
 
-## License
+## license
 
-This project is licensed under the **_DO WHATEVER THE FUCK YOU WANNA DO PUBLIC LICENSE_**.
+this project is licensed under the mit license.
 
-(c) Samarth Kulshrestha 2021
+(c) samarth kulshrestha 2021
